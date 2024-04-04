@@ -16,18 +16,9 @@
 </head>
 <body>
 
-<script type="text/javascript">
+<script type="text/javascript" type="module">
   import mixpanel from 'mixpanel-browser';
   mixpanel.init('c776e46536c51dc4aac9940cdd098961', {debug: true, track_pageview: "url-with-path-and-query-string", persistence: 'localStorage'});
-
-  function resetId() {
-    // Reset Mixpanel <user_id>
-    mixpanel.resetId;
-  }
-
-  function clickThing(thingClicked) {
-    mixpanel.track(thingClicked)
-  }
 </script>
  
 
