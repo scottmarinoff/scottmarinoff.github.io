@@ -1,4 +1,4 @@
-requirejs(['assets/js/mixpanel.amd'], function(mixpanel) {
+requirejs(['assets/js/mixpanel.amd.js'], function(mixpanel) {
 
     mixpanel.init("c776e46536c51dc4aac9940cdd098961", {
         debug: true,
