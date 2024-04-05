@@ -1,4 +1,4 @@
-// assets/js/index.js
+// [root]index.js
 
 requirejs(['assets/js/mixpanel.amd.js'], function(mixpanel) {
 
